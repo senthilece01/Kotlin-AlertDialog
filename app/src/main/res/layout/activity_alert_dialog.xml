@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.AlertDialogActivity">
+
+    <Button
+        android:id="@+id/simpleAlertWtThree_Btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SIMPLE ALERT WITH THREE BUTTON"
+        app:layout_constraintEnd_toEndOf="@+id/simpleAlertWtTwo_Btn"
+        app:layout_constraintStart_toStartOf="@+id/simpleAlertWtTwo_Btn"
+        app:layout_constraintTop_toBottomOf="@+id/simpleAlertWtTwo_Btn" />
+
+    <Button
+        android:id="@+id/simpleAlertWtTwo_Btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SIMPLE ALERT WITH TWO BUTTON"
+        app:layout_constraintEnd_toEndOf="@+id/simpleAlert_btn"
+        app:layout_constraintStart_toStartOf="@+id/simpleAlert_btn"
+        app:layout_constraintTop_toBottomOf="@+id/simpleAlert_btn" />
+
+    <Button
+        android:id="@+id/simpleAlert_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:text="SIMPLE ALERT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
