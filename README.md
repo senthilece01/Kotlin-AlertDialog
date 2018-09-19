@@ -4,7 +4,7 @@ AlertDialog Using Kotlin in Android Studio
 
 ## Screenshots :
 
-### 1) Differennt Alert :
+### 1) Different Alert :
 
 ![screenshot_1537376618](https://user-images.githubusercontent.com/10756609/45769133-52627f00-bc5c-11e8-8289-d3e261b3f2b8.png)
 
